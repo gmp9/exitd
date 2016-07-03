@@ -16,8 +16,8 @@
   @extend .small-12;
   @extend .columns;
   }
-@mixin six-columns {
-  @extend .small-6;
+@mixin nine-columns {
+  @extend .small-9;
   @extend .columns;
 }
 @mixin six-columns-centered {
@@ -43,7 +43,7 @@
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
-  @include six-columns;
+  @include nine-columns;
   background-color: #9496A1;
   }
 section {
