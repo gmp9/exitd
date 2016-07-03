@@ -1,18 +1,20 @@
-<p>The top lock is on.<br>
+<h4>2nd Lock</h4>
+<p>['yes'] The top lock is on.<br>
 But the door is only half locked.<br>
 Now, lock the bottom lock manually.<br>
 Is the door fully locked? Both locks on?<br>
-Turn the door knob as if to open the door. Push 6 times.<br>
-Is there less give to the door?</p>
+There should be less give to the door.<br>
+Turn the door knob as if to open the door. Push 9 times.<br>
+Did any car interrupt the process?</p>
 
 <%= form_for :decision1, url: decision1s_path do |f| %>
   <p>
-      <%= f.label :Yes? %><br>
+      <%= f.label :Yes? %>
       <%= f.text_field :d5 %>
   </p>
   
   <p>
-      <%= f.label :No? %><br>
+      <%= f.label :No? %>
       <%= f.text_field :d6 %>
   </p>
   
