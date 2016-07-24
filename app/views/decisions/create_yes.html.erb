@@ -1,9 +1,15 @@
 <h4>Interrupt</h4>
-<p>What is the count?<br>
+<p>
 Take a short break.<br>
-Then, push on the door, keep up the count until count = 9.<br>
+What is the count?<br>
+Do not restart the count from 0.<br>
+Keep pushing on the door. Keep up the count until we reach 9.<br>
+
 Done?</p>
 <p>If yes:
-<%= link_to 'Next Step', decisions_path %>
+<%#= link_to 'Next Step', decisions_path %>
+<%= link_to 'Yes', yes_new_decision_path %>
 </p>
-<p>If no: There is another interrupt. Repeat this page.</p>
+<p>If no: 
+<%= link_to 'No', no_new_decision_path %>
+</p>

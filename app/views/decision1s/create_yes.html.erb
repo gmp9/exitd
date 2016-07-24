@@ -4,10 +4,14 @@ The door MAY be fully locked.<br>
 Let's try to verify again.<br>
 How many times did you push on the door?<br>
 What is the count? <br>
-Add up while pushing until count = 9.<br>
+Add up while pushing until the count reaches 9.<br>
 There should be LESS GIVE from the door.<br>
 Done?<br>
-<p>If no: There is another interrupt. Repeat this page.</p>
-<p>If yes:
+<p>If no:
+<%= link_to 'No', no_new_decision1_path %><br>
+If yes:
+</p>
+<div class="highlight">
 That's it. The door is fully locked.<br>
-Walk away. Go home.</p>
+Walk away. Go home.
+</div>

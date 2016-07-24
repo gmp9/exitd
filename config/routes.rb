@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
   resources :decisions 
   resources :decision1s
-  
+  resources :decisions do
+    get 'yes', on: :new
+    get 'no', on: :new
+    get 'create_yes', on: :new
+  end
+  resources :decision1s do
+    get 'no', on: :new
+    get 'create_yes', on: :new
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

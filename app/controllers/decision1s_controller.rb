@@ -3,6 +3,12 @@ class Decision1sController < ApplicationController
    def new
    end
    
+   def no
+   end
+   
+   def create_yes
+   end
+   
    def index
     @decision1s = Decision.all
    end

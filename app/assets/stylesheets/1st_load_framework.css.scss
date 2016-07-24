@@ -40,6 +40,9 @@
   @extend .button;
   @extend .radius;
   }
+.highlight {
+  color: green;
+  }
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
