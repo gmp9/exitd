@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-ruby '2.2.1'
+ruby '2.7.2'
 gem 'rails', '4.2.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
